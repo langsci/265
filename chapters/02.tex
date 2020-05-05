@@ -66,6 +66,7 @@ To separate input addressed to all learners from comments aimed at individual le
 % \end{figure}
 
 \begin{table}
+\ttfamily
     \begin{tabular}{lrl}
         6    &   *TEA: & uwaga\\
         7    &   *TEA: & to jestlekcjanumerjeden . \\
@@ -94,6 +95,7 @@ A CHAT-CLAN automatic morphological tagging system was developed by Christine Di
 % \end{figure}
 
 \begin{table}
+\ttfamily
     \begin{tabular}{ll}
         *TEA:   & uwaga\\
         \%mor:  & Noun|uwaga:Nom-fem-Sg=attention\\
@@ -265,7 +267,7 @@ In terms of inflectional morphology, the VILLA L1 closest to Polish is certainly
 The four remaining L1s, namely Dutch (\tabref{tab:02:3}), Italian (\tabref{tab:02:4}), French (\tabref{tab:02:5}) and English (\tabref{tab:02:6}) lack case altogether as far as nouns are concerned. These only present two forms, corresponding to singular and plural.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{ll@{\hspace{1cm}}ll}
+    \begin{tabularx}{\textwidth}{XX@{\hspace{1cm}}Xl}
     \lsptoprule
         \multicolumn{2}{c}{Singular} & \multicolumn{2}{c}{Plural}\\
     \midrule
@@ -279,7 +281,7 @@ The four remaining L1s, namely Dutch (\tabref{tab:02:3}), Italian (\tabref{tab:0
 \end{table}
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{ll@{\hspace{1cm}}ll}
+    \begin{tabularx}{\textwidth}{XX@{\hspace{1cm}}Xl}
     \lsptoprule
         \multicolumn{2}{c}{Singular} & \multicolumn{2}{c}{Plural}\\
     \midrule
@@ -295,16 +297,17 @@ The four remaining L1s, namely Dutch (\tabref{tab:02:3}), Italian (\tabref{tab:0
 The cases of French and English are particularly extreme. Regarding the former, even the singular and plural forms of nouns are only distinguishable in the written variety, as they are completely homophonous in speech: the only morphological cue to number is the determiner (\tabref{tab:02:5}).
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{ll@{\hspace{1cm}}ll}
+    \begin{tabularx}{\textwidth}{XX@{\hspace{1cm}}Xl}
     \lsptoprule
         \multicolumn{2}{c}{Singular} & \multicolumn{2}{c}{Plural}\\
     \midrule
         M & F & M & F\\
         \textit{le} \textit{pompier} & \textit{la} \textit{cuisinière} & \textit{les} \textit{pompiers} & \textit{les} \textit{cuisinières}\\
-        {\textbackslash}lə pɔ.pje{\textbackslash} & {\textbackslash}la kɥi.zi.njɛʁ{\textbackslash} & {\textbackslash}le pɔ.pje{\textbackslash} & {\textbackslash}le kɥi.zi.njɛʁ{\textbackslash}\\
+        {\textbackslash}lə p\~{ɔ}.pje{\textbackslash} & {\textbackslash}la kɥi.zi.njɛʁ{\textbackslash} & {\textbackslash}le p\~{ɔ}.pje{\textbackslash} & {\textbackslash}le kɥi.zi.njɛʁ{\textbackslash}\\
         ‘the fireman’ & ‘the cook.F’ & ‘the firemen’ & ‘the cooks.F’\\
 \lspbottomrule
     \end{tabularx}
+    \todo[inline]{// instead of {\textbackslash}{\textbackslash}?}
     \caption{French nominal inflection}
     \label{tab:02:5}
 \end{table}
