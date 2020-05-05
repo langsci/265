@@ -1,4 +1,4 @@
-\chapter{The comprehension test}
+\chapter{The comprehension test}\label{sec:4}
 
 \section{Research questions and hypotheses}\label{sec:05:1}
 
@@ -24,9 +24,9 @@ Descriptive statistics are provided in \tabref{tab:05:1}.
 \begin{table}
     \begin{tabularx}{\textwidth}{XXXXXXXX}
     \lsptoprule
-    L1 &  & \multicolumn{2}{X}{SVO} & \multicolumn{2}{X}{OSV} & \multicolumn{2}{X}{OVS}\\
+    L1 &  & \multicolumn{2}{c}{SVO} & \multicolumn{2}{c}{OSV} & \multicolumn{2}{c}{OVS}\\
     & n. & mean & sd & mean & sd & mean & sd\\
-    \cmidrule{2-8}
+    \cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
     EN & 17 & 0.98 & 0.15 & 0.35 & 0.48 & 0.09 & 0.28\\
     FR & 17 & 0.93 & 0.25 & 0.43 & 0.50 & 0.29 & 0.45\\
     GE & 20 & 0.87 & 0.34 & 0.71 & 0.45 & 0.64 & 0.48\\
@@ -52,9 +52,9 @@ Descriptive statistics are provided in \tabref{tab:05:2}.
 \begin{table}
     \begin{tabularx}{\textwidth}{XXXXXXXX}
     \lsptoprule
-    L1 &  & \multicolumn{2}{X}{SVO} & \multicolumn{2}{X}{OSV} & \multicolumn{2}{X}{OVS}\\
+    L1 &  & \multicolumn{2}{c}{SVO} & \multicolumn{2}{c}{OSV} & \multicolumn{2}{c}{OVS}\\
     & n. & mean & sd & mean & sd & mean & sd\\
-    \cmidrule{2-8}
+    \cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
     EN & 17 & 0.99 & 0.08 & 0.52 & 0.50 & 0.08 & 0.28\\
     FR & 17 & 0.86 & 0.34 & 0.72 & 0.44 & 0.55 & 0.49\\
     GE & 20 & 0.87 & 0.33 & 0.80 & 0.39 & 0.75 & 0.43\\
@@ -80,9 +80,9 @@ The rationale for including the interactions is as follows. The learners' abilit
 To simulate individual variability, finally, the model includes random intercepts for participants and test items as well as interacting random slopes for word order and time. The model output is presented in \tabref{tab:05:3}.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXX}
+    \begin{tabularx}{\textwidth}{Xrrr}
     \lsptoprule
-    \textbf{~} & \multicolumn{3}{X}{ \textbf{response}}\\
+    \textbf{~} & \multicolumn{3}{c}{ \textbf{response}}\\
     \textit{Predictors} & \textit{Odds} \textit{Ratios} & \textit{CI} & \textit{p}\\
     \midrule
     (Intercept) & 0.08 & 0.02~–~0.39 & \textbf{0.002}\\
@@ -101,20 +101,20 @@ To simulate individual variability, finally, the model includes random intercept
     L1 [GE] * WO2 [SO] & 0.00 & 0.00~–~0.01 & \textbf{<0.001}\\
     L1 [IT] * WO2 [SO] & 0.06 & 0.00~–~0.70 & \textbf{0.025}\\
     L1 [NL] * WO2 [SO] & 0.09 & 0.01~–~0.86 & \textbf{0.036}\\
-    \multicolumn{4}{X}{\textbf{Random} \textbf{Effects}}\\
-    σ\textsuperscript{2} & \multicolumn{3}{X}{3.29}\\
-    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{X}{8.33}\\
-    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{X}{0.56}\\
-    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{X}{5.63}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO2SO} & \multicolumn{3}{X}{6.98}\\
-    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{X}{{}-0.11}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO2SO} & \multicolumn{3}{X}{{}-0.93}\\
-    ICC & \multicolumn{3}{X}{0.73}\\
-    N~\textsubscript{participant} & \multicolumn{3}{X}{91}\\
-    N~\textsubscript{target\_no} & \multicolumn{3}{X}{24}\\
+    \multicolumn{4}{c}{\textbf{Random} \textbf{Effects}}\\
+    σ\textsuperscript{2} & \multicolumn{3}{c}{3.29}\\
+    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{c}{8.33}\\
+    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{c}{0.56}\\
+    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{c}{5.63}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO2SO} & \multicolumn{3}{c}{6.98}\\
+    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{c}{{}-0.11}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO2SO} & \multicolumn{3}{c}{{}-0.93}\\
+    ICC & \multicolumn{3}{c}{0.73}\\
+    N~\textsubscript{participant} & \multicolumn{3}{c}{91}\\
+    N~\textsubscript{target\_no} & \multicolumn{3}{c}{24}\\
     \midrule
-    Observations & \multicolumn{3}{X}{4248}\\
-    Marginal R\textsuperscript{2}~/ Conditional R\textsuperscript{2} & \multicolumn{3}{X}{0.334 / 0.818}\\
+    Observations & \multicolumn{3}{c}{4248}\\
+    Marginal R\textsuperscript{2}~/ Conditional R\textsuperscript{2} & \multicolumn{3}{c}{0.334 / 0.818}\\
     \lspbottomrule
     \end{tabularx}
     \caption{Output model}
@@ -124,7 +124,7 @@ To simulate individual variability, finally, the model includes random intercept
 The three hypothesised interactions were probed by comparing this full model to three null models, each lacking the single interaction of interest. Statistical significance was assessed based on likelihood ratio tests (\tabref{tab:05:4}). Multiple comparison was addressed using the Holm correction.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXX}
+    \begin{tabularx}{\textwidth}{Xrrr}
     \lsptoprule
     predictor & Chisq & Df & Pr(>Chisq)\\
     \midrule
@@ -155,10 +155,12 @@ The interaction between time and L1 does not reach statistical significance, but
     condition & significant contrasts\\
     \midrule
     T1, OS & GE > NL (p = 0.03), EN (p < 0.01)\\
-    T1, SO & GE < IT (p = 0.01), EN (p < 0.01);
-    
+    \tablevspace
+    T1, SO & GE < IT (p = 0.01), EN (p < 0.01);\newline
     FR < EN (p = 0.02)\\
+    \tablevspace
     T2, OS & EN < GE (p < 0.01), IT (p = 0.02)\\
+    \tablevspace
     T2, SO & GE < IT (p = 0.03)\\
     \lspbottomrule
     \end{tabularx}
@@ -233,14 +235,15 @@ The analysis so far has revealed obvious gaps in scores between SO targets, on t
 \figref{fig:05:4} presents an overall picture of each learner's processing strategy of OS targets at both T1 and T2. The processing scores of OSV targets are represented on the horizontal axis, with learners behaving at chance level on the left (scenarios 2 and 4), and learners above chance on the right (scenarios 1 and 3). Conversely, the processing scores of OVS targets are represented on the vertical axis, with learners behaving at chance level at the bottom (scenarios 2 and 3) and learners above chance at the top (scenarios 2 and 4). Taken together, the two scores provide an overall picture of learners' behaviour on both OVS and OSV targets at the same time. The main area is divided into four main squares, each representing a processing scenario at T1 according to the conventions summarised in \tabref{tab:05:6}.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXX}
-    \lsptoprule
-    \multicolumn{2}{X}{} & \multicolumn{2}{X}{OSV}\\
-    &  & p ${\leq}$ 0.05 & p > 0.05\\
-    \multicolumn{1}{X}{OVS} & p ${\leq}$ 0.05 & 1 & 4\\
-    & p > 0.05 & 3 & 2\\
-    \lspbottomrule
-    \end{tabularx}
+    \begin{tabular}{|lc|cc|}
+    \hline
+    & & \multicolumn{2}{c|}{OSV}\\
+    &  & p ${\leq}$ 0.05 & p $>$ 0.05\\
+    \hline
+    \multirow{2}{*}{OVS} & p ${\leq}$ 0.05 & 1 & 4\\
+                         & p $>$ 0.05 & 3 & 2\\
+    \hline
+    \end{tabular}
     \caption{Scenarios, rationale}
     \label{tab:05:6}
 \end{table}
@@ -264,27 +267,29 @@ Two further major clusters originate from scenario 2 at T1, which indicates a po
 Synchronically, more learners appear in scenario 3 than in scenario 4 at both T1 and T2, as shown in \tabref{tab:05:7} and \ref{tab:05:8} respectively.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXX}
-    \lsptoprule
-    \multicolumn{2}{X}{} & \multicolumn{2}{X}{OSV}\\
-    &  & p ${\leq}$ 0.05 & p > 0.05\\
-    \multicolumn{1}{X}{OVS} & p ${\leq}$ 0.05 & 23 & 2\\
-    & p > 0.05 & 8 & 58\\
-    \lspbottomrule
-    \end{tabularx}
+    \begin{tabular}{|lc|cc|}
+    \hline
+    & & \multicolumn{2}{c|}{OSV}\\
+    &  & p ${\leq}$ 0.05 & p $>$ 0.05\\
+    \hline
+    \multirow{2}{*}{OVS} & p ${\leq}$ 0.05 & 23 & 2\\
+    & p $>$ 0.05 & 8 & 58\\
+    \hline
+    \end{tabular}
     \caption{Comprehension test, OS targets, learner distribution across scenarios, T1}
     \label{tab:05:7}
 \end{table}
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXX}
-    \lsptoprule
-    \multicolumn{2}{X}{} & \multicolumn{2}{X}{OSV}\\
-    &  & p ${\leq}$ 0.05 & p > 0.05\\
-    \multicolumn{1}{X}{OVS} & p ${\leq}$ 0.05 & 40 & 1\\
-    & p > 0.05 & 15 & 35\\
-    \lspbottomrule
-    \end{tabularx}
+    \begin{tabular}{|lc|cc|}
+    \hline
+    & & \multicolumn{2}{c|}{OSV}\\
+    &  & p ${\leq}$ 0.05 & p $>$ 0.05\\
+    \hline
+    \multirow{2}{*}{OVS}& p ${\leq}$ 0.05 & 40 & 1\\
+    & p $>$ 0.05 & 15 & 35\\
+    \hline
+    \end{tabular}
     \caption{Comprehension test, OS targets, learner distribution across scenarios, T2}
     \label{tab:05:8}
 \end{table}
@@ -323,9 +328,9 @@ The picture changes with OSV targets \REF{ex:05:3}, in which the structure of th
 To test the effect of OS word order statistically, the generalised linear mixed model described in \sectref{sec:05:2.1} was compared to an identical model, in which however the predictor WO2 (word order with two values, i.e. SO and OS) was substituted with the predictor WO3 (word order with three values, i.e. SVO, OVS and OSV). The model output is presented in \tabref{tab:05:9}.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{lrrr}
+    \begin{tabularx}{\textwidth}{Xrrr}
     \lsptoprule
-    \textbf{~} & \multicolumn{3}{X}{ \textbf{response}}\\
+    \textbf{~} & \multicolumn{3}{c}{ \textbf{response}}\\
     \textit{Predictors} & \textit{Odds} \textit{Ratios} & \textit{CI} & \textit{p}\\
     \midrule
     (Intercept) & 0.28 & 0.07~–~1.09 & 0.067\\
@@ -350,21 +355,21 @@ To test the effect of OS word order statistically, the generalised linear mixed 
     L1 [GE] * WO3 [SVO] & 0.00 & 0.00~–~0.03 & \textbf{<0.001}\\
     L1 [IT] * WO3 [SVO] & 0.16 & 0.02~–~1.66 & 0.124\\
     L1 [NL] * WO3 [SVO] & 0.19 & 0.02~–~1.61 & 0.129\\
-    \multicolumn{4}{X}{\textbf{Random} \textbf{Effects}}\\
-    σ\textsuperscript{2} & \multicolumn{3}{X}{3.29}\\
-    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{X}{6.15}\\
-    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{X}{0.24}\\
-    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{X}{6.63}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{X}{3.83}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{X}{5.19}\\
-    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{X}{{}-0.14}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{X}{0.70}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{X}{{}-0.91}\\
-    ICC & \multicolumn{3}{X}{0.76}\\
-    N~\textsubscript{participant} & \multicolumn{3}{X}{91}\\
-    N~\textsubscript{target\_no} & \multicolumn{3}{X}{24}\\
-    Observations & \multicolumn{3}{X}{4248}\\
-    Marginal R\textsuperscript{2}~/ Conditional R\textsuperscript{2} & \multicolumn{3}{X}{0.375 / 0.852}\\
+    \multicolumn{4}{c}{\textbf{Random} \textbf{Effects}}\\
+    σ\textsuperscript{2} & \multicolumn{3}{c}{3.29}\\
+    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{c}{6.15}\\
+    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{c}{0.24}\\
+    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{c}{6.63}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{c}{3.83}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{c}{5.19}\\
+    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{c}{{}-0.14}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{c}{0.70}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{c}{{}-0.91}\\
+    ICC & \multicolumn{3}{c}{0.76}\\
+    N~\textsubscript{participant} & \multicolumn{3}{c}{91}\\
+    N~\textsubscript{target\_no} & \multicolumn{3}{c}{24}\\
+    Observations & \multicolumn{3}{c}{4248}\\
+    Marginal R\textsuperscript{2}~/ Conditional R\textsuperscript{2} & \multicolumn{3}{c}{0.375 / 0.852}\\
     \lspbottomrule
     \end{tabularx}
     \caption{Model output}

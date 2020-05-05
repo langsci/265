@@ -1,20 +1,11 @@
-\documentclass[output=book,
-        colorlinks,
-        citecolor=brown, 
-%         draft,
-%         draftmode,
-        leqno,
-        arseneau,
-        oldstylenumbers
+\documentclass[output=book,leqno,arseneau,oldstylenumbers
+        colorlinks,  citecolor=brown,
+%         draft, draftmode,
 		  ]{langscibook}
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%          additional packages                 %%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
-% put all additional commands you need in the 
-% following files. If you do not know what this might 
-% mean, you can safely ignore this setion
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{localmetadata.tex} 
 \input{localpackages.tex}
 \input{localhyphenation.tex}
@@ -47,11 +38,10 @@
 \include{chapters/07}
 \include{chapters/08}
 \include{chapters/09}
-% \include{chapters/10}
+\include{chapters/10}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%             Backmatter                       %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{backmatter.tex}
-
 \end{document} 
