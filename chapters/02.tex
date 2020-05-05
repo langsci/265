@@ -126,7 +126,7 @@ Again, tags may include more than one possible grammatical meaning, as exemplifi
     \textit{balonik}:sostantivoIN\_Acc\_Mas\_Sg//sostantivoIN\_Nom\_Mas\_Sg:balonik
     \z
 
-The input transcript, once glossed, can be searched for appropriate patterns through regular expressions. A search for SVO sentences with animate masculine nouns as subject and inanimate feminine nouns as object, for example, should retrieve hits like \textit{Leon} \textit{lubi} \textit{herbatę}, ‘Leon likes tea’. In addition, it is possible to identify all the instances of a given lexeme or grammatical value such as, for example, ‘nominative masculine singular’. This possibility will be widely exploited in chapter 3, in which searches were performed using R (\citealt{RCoreTeam2017}) and its package \textit{stringr} \citep{Wickham2017}.
+The input transcript, once glossed, can be searched for appropriate patterns through regular expressions. A search for SVO sentences with animate masculine nouns as subject and inanimate feminine nouns as object, for example, should retrieve hits like \textit{Leon} \textit{lubi} \textit{herbatę}, ‘Leon likes tea’. In addition, it is possible to identify all the instances of a given lexeme or grammatical value such as, for example, ‘nominative masculine singular’. This possibility will be widely exploited in \chapref{sec:3}, in which searches were performed using R (\citealt{RCoreTeam2017}) and its package \textit{stringr} \citep{Wickham2017}.
 
 \subsection{The VILLA input as a variety of Polish}\label{sec:02:1.3}
 
@@ -273,7 +273,7 @@ The four remaining L1s, namely Dutch (\tabref{tab:02:3}), Italian (\tabref{tab:0
     \midrule
         M & F & M & F\\
         de kok & de kokkin & de kok-s & de kokkin-s, kokkinn-en\\
-        ‘the fireman’ & ‘the cook.F’ & ‘the firemen’ & ‘the cooks.F’\\
+        ‘the fireman’ & ‘the cook.\textsc{f}’ & ‘the firemen’ & ‘the cooks.\textsc{f}’\\
 \lspbottomrule
     \end{tabularx}
     \caption{Dutch nominal inflection}
@@ -287,7 +287,7 @@ The four remaining L1s, namely Dutch (\tabref{tab:02:3}), Italian (\tabref{tab:0
     \midrule
         F & M & F & M\\
         il pompier-e & la cuoc-a & i pompier-i & le cuoch-e \\
-        ‘the fireman’ & ‘the cook.F’ & ‘the firemen’ & ‘the cooks.F’\\
+        ‘the fireman’ & ‘the cook.\textsc{f}’ & ‘the firemen’ & ‘the cooks.\textsc{f}’\\
 \lspbottomrule
     \end{tabularx}
     \caption{Italian nominal inflection}
@@ -304,7 +304,7 @@ The cases of French and English are particularly extreme. Regarding the former, 
         M & F & M & F\\
         \textit{le} \textit{pompier} & \textit{la} \textit{cuisinière} & \textit{les} \textit{pompiers} & \textit{les} \textit{cuisinières}\\
         {\textbackslash}lə p\~{ɔ}.pje{\textbackslash} & {\textbackslash}la kɥi.zi.njɛʁ{\textbackslash} & {\textbackslash}le p\~{ɔ}.pje{\textbackslash} & {\textbackslash}le kɥi.zi.njɛʁ{\textbackslash}\\
-        ‘the fireman’ & ‘the cook.F’ & ‘the firemen’ & ‘the cooks.F’\\
+        ‘the fireman’ & ‘the cook.\textsc{f}’ & ‘the firemen’ & ‘the cooks.\textsc{f}’\\
 \lspbottomrule
     \end{tabularx}
     \todo[inline]{// instead of {\textbackslash}{\textbackslash}?}
@@ -424,7 +424,7 @@ The main tool to elicit L2 data is represented by structured tests, schematicall
     \label{tab:02:9}
 \end{table}
 
-This book considers the results of two of these tasks, i.e. the Elicited Imitation (EI) and the Comprehension tasks. Precious linguistic data may be also extracted from a few interactional moments which took place during classes, in which learners were asked solve a simple communicative task in pairs or small groups. Indeed, one such instance will be used a source of semi-spontaneous production data in chapter 7. 
+This book considers the results of two of these tasks, i.e. the Elicited Imitation (EI) and the Comprehension tasks. Precious linguistic data may be also extracted from a few interactional moments which took place during classes, in which learners were asked solve a simple communicative task in pairs or small groups. Indeed, one such instance will be used a source of semi-spontaneous production data in \chapref{sec:7}.
 
 In order to control for specific learner attitudes which may have an impact on the tests above, individual difference measures were also taken (\tabref{tab:02:10}). Although correlations of these measures with the results of the structured tests have been attempted within the VILLA project (\citealt{WatorekSaturno2016, SaturnoWatorekInPrep}), these tasks will not be considered in the present work. 
 
@@ -451,7 +451,7 @@ In order to control for specific learner attitudes which may have an impact on t
 
 \subsection{Transcription of the production tasks}\label{sec:02:4.1}
 
-Two of the sources of linguistic data described in this book, namely the EI test (\sectref{sec:02:4.3}) and semi-spontaneous production (\sectref{sec:02:4.5}), aimed to elicit oral production data from the learner. As these data needed to be made available in a written mode for further analysis, learner responses were digitally recorded and subsequently transcribed\footnote{Transcribers: Joanna Hinz (German corpus), Katarzina Loziczka (Dutch corpus), Jacopo Saturno (Italian, French and English corpora).} using a combination of the ELAN (\citealt{BrugmanRussell2004}) and CLAN \citep{MacWhinney2000} software. As explained in Chapter 1, in a first stage the production data were transcribed phonetically, using either the IPA \citep{LandauEtAl1999} or the SAMPA (\citealt{Wells1997, Wells1995}) phonetic alphabets. In preparation for analysis, the transcripts made by individual transcribers were then normalised to broad IPA. No effort was made to accurately transcribe a few subtle phonological contrasts of Polish phonology, such as that between the series of post-alveolar \{ʃ,ʒ,ʧ,ʤ\}\footnote{These sounds are sometimes referred to as retroflex consonants and accordingly transcribed as \{ʂ, ʐ, tʂ͡, dʐ͡ \}, although it can be argued that the notion of ‘retroflex’ is quite problematic and may corresponds to different phonetic realisations across the languages of the world (\citealt{Hamann2002, Hamann2003, Hamann2004, Żygis2003, ŻygisHamann2003, PadgettŻygis2007, ŻygisPadgett2010}). Throughout this book the symbols \{ʃ,ʒ,ʧ,ʤ\} will be used for reasons of readability.} and pre-palatal \{ɕ,ʑ,ʨ,ʥ\} consonants, or that between the high front /i/ and the high central /ɨ/ vowels, because there are not relevant for morphological analysis. When lexical stress is not specified, it is assumed that it falls on the penultimate syllable.
+Two of the sources of linguistic data described in this book, namely the EI test (\sectref{sec:02:4.3}) and semi-spontaneous production (\sectref{sec:02:4.5}), aimed to elicit oral production data from the learner. As these data needed to be made available in a written mode for further analysis, learner responses were digitally recorded and subsequently transcribed\footnote{Transcribers: Joanna Hinz (German corpus), Katarzina Loziczka (Dutch corpus), Jacopo Saturno (Italian, French and English corpora).} using a combination of the ELAN (\citealt{BrugmanRussell2004}) and CLAN \citep{MacWhinney2000} software. As explained in Chapter 1, in a first stage the production data were transcribed phonetically, using either the IPA \citep{LandauEtAl1999} or the SAMPA (\citealt{Wells1997, Wells1995}) phonetic alphabets. In preparation for analysis, the transcripts made by individual transcribers were then normalised to broad IPA. No effort was made to accurately transcribe a few subtle phonological contrasts of Polish phonology, such as that between the series of post-alveolar \{ʃ,ʒ,ʧ,ʤ\}\footnote{These sounds are sometimes referred to as retroflex consonants and accordingly transcribed as \{ʂ, ʐ, tʂ͡, dʐ͡ \}, although it can be argued that the notion of ``retroflex'' is quite problematic and may corresponds to different phonetic realisations across the languages of the world (\citealt{Hamann2002, Hamann2003, Hamann2004, Żygis2003, ŻygisHamann2003, PadgettŻygis2007, ŻygisPadgett2010}). Throughout this book the symbols \{ʃ,ʒ,ʧ,ʤ\} will be used for reasons of readability.} and pre-palatal \{ɕ,ʑ,ʨ,ʥ\} consonants, or that between the high front /i/ and the high central /ɨ/ vowels, because there are not relevant for morphological analysis. When lexical stress is not specified, it is assumed that it falls on the penultimate syllable.
 
 The production of centralised vowels by some learners required particular attention, as such sounds make it impossible to link the learner-produced form to one of the possible target word-forms. A word pronounced by a learner as [ˈpiwkə] for instance may correspond to both target [ˈpiwka] \textit{piłk-a} ‘ball-\textsc{nom.sg}’ and target [ˈpiwka] \textit{piłk-ę} ‘ball-\textsc{nom.sg’}. For the present analysis target items in which the ending produced was not clearly identifiable as either -/a/ or -/e/ were discarded, which led to the exclusion of 334 items. The problem proved particularly severe in the case of the German data, in which 242 items were excluded, most probably because of transfer of the German phonological rule of word-final vowel centralisation. 
 
