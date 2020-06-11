@@ -22,7 +22,7 @@ This section first presents descriptive statistics relative to learner data, the
 Descriptive statistics are provided in \tabref{tab:05:1}.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXXXXXX}
+    \begin{tabularx}{\textwidth}{XYYYYYYY}
     \lsptoprule
     L1 &  & \multicolumn{2}{c}{SVO} & \multicolumn{2}{c}{OSV} & \multicolumn{2}{c}{OVS}\\
     & n. & mean & sd & mean & sd & mean & sd\\
@@ -50,7 +50,7 @@ Descriptive statistics are provided in \tabref{tab:05:1}.
 Descriptive statistics are provided in \tabref{tab:05:2}.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{XXXXXXXX}
+    \begin{tabularx}{\textwidth}{XYYYYYYY}
     \lsptoprule
     L1 &  & \multicolumn{2}{c}{SVO} & \multicolumn{2}{c}{OSV} & \multicolumn{2}{c}{OVS}\\
     & n. & mean & sd & mean & sd & mean & sd\\
@@ -66,6 +66,7 @@ Descriptive statistics are provided in \tabref{tab:05:2}.
     \caption{Comprehension task, descriptive statistics, T2}
     \label{tab:05:2}
 \end{table}
+\clearpage
 
 A few preliminary remarks can be made based on these descriptive statistics. First, as expected, SO scores are much higher than their OS equivalents in all cases. Curiously, though, the mean scores below 100\% as well as the rather high standard deviations point to the fact that some learners actually made several errors on SVO targets too, which runs contrary to the initial hypotheses. 
 
@@ -101,16 +102,16 @@ To simulate individual variability, finally, the model includes random intercept
     L1 [IT] * WO2 [SO] & 0.06 & 0.00~—~0.70 & \textbf{0.025}\\
     L1 [NL] * WO2 [SO] & 0.09 & 0.01~—~0.86 & \textbf{0.036}\\
     \multicolumn{4}{c}{\textbf{random} \textbf{effects}}\\
-    σ\textsuperscript{2} & \multicolumn{3}{c}{3.29}\\
-    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{c}{8.33}\\
-    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{c}{0.56}\\
-    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{c}{5.63}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO2SO} & \multicolumn{3}{c}{6.98}\\
-    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{c}{{}-0.11}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO2SO} & \multicolumn{3}{c}{{}-0.93}\\
-    ICC & \multicolumn{3}{c}{0.73}\\
-    N~\textsubscript{participant} & \multicolumn{3}{c}{91}\\
-    N~\textsubscript{target\_no} & \multicolumn{3}{c}{24}\\
+    σ\textsuperscript{2} & \multicolumn{3}{r}{3.29}\\
+    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{r}{8.33}\\
+    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{r}{0.56}\\
+    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{r}{5.63}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO2SO} & \multicolumn{3}{r}{6.98}\\
+    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{r}{{}-0.11}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO2SO} & \multicolumn{3}{r}{{}-0.93}\\
+    ICC & \multicolumn{3}{r}{0.73}\\
+    N~\textsubscript{participant} & \multicolumn{3}{r}{91}\\
+    N~\textsubscript{target\_no} & \multicolumn{3}{r}{24}\\
     \midrule
     observations & \multicolumn{3}{c}{4248}\\
     marginal R\textsuperscript{2}~/ conditional R\textsuperscript{2} & \multicolumn{3}{c}{0.334 / 0.818}\\
@@ -140,8 +141,8 @@ The interaction between time and L1 does not reach statistical significance, but
 
 \figref{fig:05:3} depicts the interaction between time and word order. No statistically significant difference between T1 and T2 can be observed for SO targets, which indicates no significant improvement in time. The reverse is true for OS targets, in which a statistically significant improvement can be observed between T1 and T2 for all L1 groups except the L1 English group, whose performance does improve in time, but not to a significant extent.
 
-\begin{figure}
-    \includegraphics[width=\textwidth]{figures/05-3.pdf}
+\begin{figure}[p]
+    \includegraphics[height=.4\textheight]{figures/05-3.pdf}
     \caption{Pairwise comparisons, effect of time across L1 and word order}
     \label{fig:05:3}
 \end{figure}
@@ -149,29 +150,30 @@ The interaction between time and L1 does not reach statistical significance, but
 \figref{fig:05:4} depicts the interaction between L1 and word order. Notable facts are reported in \tabref{tab:05:5}. The symbols “>” and “<” indicate significantly better and significantly worse performance, respectively. Only significant contrasts are reported.
 
 \begin{table}
-    \begin{tabularx}{\textwidth}{ll}
+    \begin{tabularx}{\textwidth}{XX}
     \lsptoprule
     condition & significant contrasts\\
     \midrule
-    T1, OS & GE > NL (p = 0.03), EN (p < 0.01)\\
+    T1, OS & GE $>$ NL $(p = 0.03)$, EN $(p < 0.01)$\\
     \tablevspace
-    T1, SO & GE < IT (p = 0.01), EN (p < 0.01);\newline
-    FR < EN (p = 0.02)\\
+    T1, SO & GE $<$ IT $(p = 0.01)$, EN $(p < 0.01)$;\newline
+            FR $<$ EN $(p = 0.02)$\\
     \tablevspace
-    T2, OS & EN < GE (p < 0.01), IT (p = 0.02)\\
+    T2, OS & EN < GE $(p < 0.01)$, IT $(p = 0.02)$\\
     \tablevspace
-    T2, SO & GE < IT (p = 0.03)\\
+    T2, SO & GE < IT $(p = 0.03)$\\
     \lspbottomrule
     \end{tabularx}
     \caption{Pairwise comparisons, L1: word order (WO) interaction, significant contrasts}
     \label{tab:05:5}
 \end{table}
 
-\begin{figure}
-    \includegraphics[width=\textwidth]{figures/05-4.pdf}
+\begin{figure}[p]
+    \includegraphics[height=.4\textheight]{figures/05-4.pdf}
     \caption{Pairwise comparisons, effect of L1 across time and word order}
     \label{fig:05:4}
 \end{figure}
+\clearpage
 
 \subsection{Individual processing strategies}\label{sec:05:2.3}
 
@@ -247,7 +249,7 @@ The analysis so far has revealed obvious gaps in scores between SO targets, on t
     \label{tab:05:6}
 \end{table}
 
-Scenario 1 indicates that the learner processes both OSV (horizontal axis, black) and OVS (vertical axis, red) targets based on a morphosyntactic principle, whereby the first NP is always interpreted as the subject. Scenario 2 is the reverse, that is, both types of target are processed positionally, which leads to an incorrect interpretation of the sentence. In scenario 3, OSV targets are processed in a target-like manner, whereas OVS targets are not; the opposite happens in scenario 4. The last two scenarios are particularly relevant for the present research question, as they suggest a discrepancy in the processing of the two types of OS target.
+Scenario 1 indicates that the learner processes both OSV targets (horizontal axis, black) and OVS targets (vertical axis, red), based on a morphosyntactic principle whereby the first NP is always interpreted as the subject. Scenario 2 is the reverse, that is, both types of target are processed positionally, which leads to an incorrect interpretation of the sentence. In scenario 3, OSV targets are processed in a target-like manner, whereas OVS targets are not; the opposite happens in scenario 4. The last two scenarios are particularly relevant for the present research question, as they suggest a discrepancy in the processing of the two types of OS target.
 
 The main squares are further divided into four smaller squares each, which represent the same processing scenarios, in the same order, but relative to T2. In this manner, an indication of the evolution in time of learner processing strategies is included in the graph. Overall scenarios are identified by the two digits corresponding to learner performance at T1 and T2, in that order.
 
@@ -354,20 +356,20 @@ To test the effect of OS word order statistically, the generalised linear mixed 
     L1 [IT] * WO3 [SVO] & 0.16 & 0.02~—~1.66 & 0.124\\
     L1 [NL] * WO3 [SVO] & 0.19 & 0.02~—~1.61 & 0.129\\
     \multicolumn{4}{c}{\textbf{random} \textbf{effects}}\\
-    σ\textsuperscript{2} & \multicolumn{3}{c}{3.29}\\
-    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{c}{6.15}\\
-    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{c}{0.24}\\
-    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{c}{6.63}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{c}{3.83}\\
-    τ\textsubscript{11}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{c}{5.19}\\
-    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{c}{{}-0.14}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{c}{0.70}\\
-    ρ\textsubscript{01}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{c}{{}-0.91}\\
-    ICC & \multicolumn{3}{c}{0.76}\\
-    N~\textsubscript{participant} & \multicolumn{3}{c}{91}\\
-    N~\textsubscript{target\_no} & \multicolumn{3}{c}{24}\\
-    observations & \multicolumn{3}{c}{4248}\\
-    marginal R\textsuperscript{2}~/ conditional R\textsuperscript{2} & \multicolumn{3}{c}{0.375 / 0.852}\\
+    σ\textsuperscript{2} & \multicolumn{3}{r}{3.29}\\
+    τ\textsubscript{00}~\textsubscript{participant} & \multicolumn{3}{r}{6.15}\\
+    τ\textsubscript{00}~\textsubscript{target\_no} & \multicolumn{3}{r}{0.24}\\
+    τ\textsubscript{11}~\textsubscript{participant.time2} & \multicolumn{3}{r}{6.63}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{r}{3.83}\\
+    τ\textsubscript{11}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{r}{5.19}\\
+    ρ\textsubscript{01}~\textsubscript{participant.time2} & \multicolumn{3}{r}{{}-0.14}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO3OVS} & \multicolumn{3}{r}{0.70}\\
+    ρ\textsubscript{01}~\textsubscript{participant.WO3SVO} & \multicolumn{3}{r}{{}-0.91}\\
+    ICC & \multicolumn{3}{r}{0.76}\\
+    N~\textsubscript{participant} & \multicolumn{3}{r}{91}\\
+    N~\textsubscript{target\_no} & \multicolumn{3}{r}{24}\\
+    observations & \multicolumn{3}{r}{4248}\\
+    marginal R\textsuperscript{2}~/ conditional R\textsuperscript{2} & \multicolumn{3}{r}{0.375 / 0.852}\\
     \lspbottomrule
     \end{tabularx}
     \caption{Model output}
