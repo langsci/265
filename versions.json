@@ -1,7 +1,1 @@
-{"versions": [{"versiontype": "proofreading",
-		"title": "Utterance structure in initial L2 acquisition",
-		"authors": [{"name": "Jacopo Saturno"}],
-	"license": "CC-BY-4.0",
-	"publishedAt": "2020-05-06T20:44:08.000Z"}
-	]
-}
+{"versions": [{"authors": [{"name": "Jacopo Saturno"}], "title": "Utterance structure in initial L2 acquisition", "publishedAt": "2020-05-06T20:44:08.000Z", "license": "CC-BY-4.0", "versiontype": "proofreading"}, {"title": "Utterance structure in initial L2 acquisition", "versiontype": "first_edition", "license": "CC-BY-4.0", "publishedAt": "2020-06-18T12:23:42.351583", "authors": [{"name": "Jacopo Saturno"}]}]}
